@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box" style="width: 100px; height: 100px; background-color: rgb(149, 210, 231);"></div>
+     <!-- Add a div with class 'box' and initial width and height of 100px, and a background color -->
+    <button id="btn">Click Me</button>  <!-- Add a button with id 'btn' -->
+
+
+
+    <script>
+        let height = 100; // Initial height of the div
+        let width = 100; // Initial width of the div
+        let div = document.querySelector('.box');   // Select the div with class 'box'
+        let btn = document.querySelector('#btn'); // Select the button with id 'btn'
+        btn.addEventListener('click', () => {
+            height++;
+            width++;
+            div.style.height = height + 'px';
+            div.style.width = width + 'px';
+        })
+    </script>
+
+</body>
+
+</html>
