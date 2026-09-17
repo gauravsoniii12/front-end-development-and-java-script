@@ -1,5 +1,9 @@
 // // ES6 modern javascript
 
+
+
+
+
 // //Normal
 // // function greet(){
 // //   console.log("Don,t touch my laptop")
